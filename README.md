@@ -1,177 +1,92 @@
-# Exno-2-Prompt-Engg
-
-# Ex.No: 2 	Evaluation of 2024 Prompting Tools Across Diverse AI Platforms: 
-ChatGPT, Claude, Bard, Cohere Command, and Meta 
-### DATE: 23/04/2025                                                                            
+# Exno.3-Scenario-Based Report Development Utilizing Diverse Prompting Techniques
+### DATE:  26.04.2025                                                                         
 ### REGISTER NUMBER : 212222240011
- 
-###Aim:
-To compare the performance, user experience, and response quality of different AI platforms (ChatGPT, Claude, Bard, Cohere Command, and Meta) within a specific use case, such as summarizing text or answering technical questions. Generate a Prompt based output using different Prompting tools of 2024.
 
-### Algorithm:
-Define the Use Case:
-Select a specific task for evaluation across platforms (e.g., summarizing a document, answering a technical question, or generating a creative story / Code).
-Ensure the use case is applicable to all platforms and will allow for comparison across response quality, accuracy, and depth.
-Create a Set of Prompts:
-Prepare a uniform set of prompts that align with the chosen use case.
-Each prompt should be clear and precise, ensuring that all platforms are evaluated using the same input.
-Consider multiple prompts to capture the versatility of each platform in handling different aspects of the use case.
-Run the Experiment on Each AI Platform:
-Input the prompts into each AI tool (ChatGPT, Claude, Bard, Cohere Command, and Meta) and gather the responses.
-Ensure the same conditions are applied for each platform, such as input format, time to respond, and prompt delivery.
-Record response times, ease of interaction with the platform, and any technical issues encountered.
-Evaluate Response Quality:
-Assess each platform’s responses using the following criteria: Accuracy,Clarity,Depth,Relevance 
-Compare Performance:
-Compare the collected data to identify differences in performance across platforms.
-Identify any platform-specific advantages, such as faster response times, more accurate answers, or more intuitive interfaces.
-Deliverables:
-A comparison table outlining the performance of each platform (ChatGPT, Claude, Bard, Cohere Command, and Meta) based on accuracy, clarity, depth, and relevance of responses.
-A final report summarizing the findings of the experiment, including recommendations on the most suitable AI platform for different use cases based on performance and user 
+### Aim: 
+Scenario-Based Report Development Utilizing Diverse Prompting Techniques
 
+### Algorithm:  
+The goal of this experiment is to design and develop an AI-powered chatbot that can handle customer inquiries, provide support, and improve customer experience in a retail environment. Create prompts using various AI prompting techniques to guide your experiment, data collection, analysis, and report creation
 
-### Algorithm: Design and Develop a Test scenario and execute the prompts under Diverse AI Platforms.
+### Prompts:
+### 1. Straightforward Prompts:
+These are simple, direct queries that help the chatbot handle common customer requests efficiently.
 
-Sure! Here's a clearly written section for both the **Algorithm** and **Program** parts of your record:
+Scenario: A customer asks for product troubleshooting or order status.
 
----
+Example Prompts and Responses:
 
-### **Algorithm: Design and Develop a Test Scenario and Execute the Prompts under Diverse AI Platforms*
+Customer Query 1: "What do I do if my laptop isn’t turning on?"
 
-### Expected Output from Different Platforms:
-1. Straightforward Prompt
-Prompt: "What is the capital of France?"
+Chatbot Response:
 
-ChatGPT: The capital of France is Paris.
+"First, make sure your laptop is plugged in and the power button is working. If it's still not turning on, try holding the power button for 10 seconds to reset it. Let me know if that works."
 
-Claude: Paris is the capital of France.
+Customer Query 2: "Where is my order?"
 
-Bard: The capital of France is Paris.
+Chatbot Response:
 
-Cohere Command: Paris is the capital of France.
+"Could you please provide your order number so I can check the status for you?"
 
-Meta: The capital of France is Paris.
+### 2. Tabular Format Prompting:
+This technique is helpful when the chatbot needs to present structured data or comparisons in an easy-to-read format, like troubleshooting steps, order status, or product comparisons.
 
-2. Tabular Format Prompting
-Prompt: "Create a table comparing the features of AI models."
+Scenario: A customer asks about product features or compares multiple models.
 
-| **AI Platform** | **Response** |
-|-----------------|--------------|
-| **ChatGPT** | **Feature** | **GPT** | **Claude** | **Bard** | **Cohere Command** |
-| | --------- | ---------- | --------- | -------- | ---------------- |
-| | Natural Language Understanding | Excellent | Excellent | Good | Good |
-| | Contextual Understanding | High | Medium | High | Medium |
-| | Availability | Broad | Limited | Limited | Limited |
-| | Speed | Fast | Fast | Moderate | Fast |
-| **Claude** | **Feature** | **GPT** | **Claude** | **Bard** | **Cohere Command** |
-| | --------- | ---------- | --------- | -------- | ---------------- |
-| | Natural Language Understanding | Very good | Excellent | Good | Medium |
-| | Speed | Fast | Fast | Moderate | Fast |
-| | Data Usage | Broad | Medium | Narrow | Narrow |
-| **Bard** | **Feature** | **GPT** | **Claude** | **Bard** | **Cohere Command** |
-| | --------- | ---------- | --------- | -------- | ---------------- |
-| | Contextual Understanding | Excellent | Good | Very Good | Medium |
-| | Speed | Fast | Fast | Moderate | Fast |
-| | Availability | Broad | Medium | Narrow | Medium |
-| **Cohere Command** | **Feature** | **GPT** | **Claude** | **Bard** | **Cohere Command** |
-| | --------- | ---------- | --------- | -------- | ---------------- |
-| | Speed | Fast | Fast | Moderate | Fast |
-| | Contextual Understanding | Medium | Medium | Good | Medium |
-| | Availability | Medium | Medium | Medium | High |
-3. Missing Word Prompting
-Prompt: "The capital of Italy is ___."
+Example Prompts and Responses:
 
-ChatGPT: The capital of Italy is Rome.
+Customer Query: "Can you show me a comparison of the two models?"
 
-Claude: The capital of Italy is Rome.
+Chatbot Response:
 
-Bard: The capital of Italy is Rome.
+"Sure, here's a table comparing the two models for you:"
+| **Feature**      | **Model A**        | **Model B**        |
+|------------------|--------------------|--------------------|
+| **Screen Size**  | 15.6 inches        | 14 inches          |
+| **Processor**    | Intel i7           | Intel i5           |
+| **Battery Life** | 8 hours            | 6 hours            |
+| **Weight**       | 2.5 kg             | 2.0 kg             |
 
-Cohere Command: The capital of Italy is Rome.
+Chatbot Response:
 
-Meta: The capital of Italy is Rome.
+"Here's a table with steps to troubleshoot your issue:"
+| **Step** | **Action**                                               |
+|----------|----------------------------------------------------------|
+| 1        | Ensure the device is plugged in and the power button works. |
+| 2        | Check for any visible damage to cables or power ports.     |
+| 3        | Hold the power button for 10 seconds to reset the device.  |
+| 4        | If the issue persists, contact customer support.           |
 
-4. Preceding Question Prompting
-Prompt: "Given that the capital of France is Paris, what is the capital of Italy?"
+### 3. Preceding Question Prompting:
+This technique involves using context from previous customer queries to ensure that the chatbot gives relevant and continuous support.
 
-ChatGPT: The capital of Italy is Rome.
+Scenario: The chatbot needs to maintain context across different queries or follow-up questions.
 
-Claude: The capital of Italy is Rome.
+Example Prompts and Responses:
 
-Bard: The capital of Italy is Rome.
+Customer Query 1: "I ordered a phone last week. When will it arrive?"
 
-Cohere Command: The capital of Italy is Rome.
+Chatbot Response: "Could you please provide your order number so I can check the status?"
 
-Meta: The capital of Italy is Rome.
+Customer Query 2 (after the order number is provided): "What should I do if the phone has a defect?"
 
-5. Comparative Analysis Prompt
-Prompt: "Compare the features of Python and Java."
+Chatbot Response: "Thank you for your order number. If your phone is defective, you can follow these steps for returns or repairs."
 
-ChatGPT: Python is known for its simplicity and ease of use, great for beginners, while Java is more complex but offers strong performance for large-scale applications. Python is better for rapid development, and Java excels in performance for enterprise systems.
+Customer Query 3 (follow-up after troubleshooting step): "It still doesn't work. What should I do next?"
 
-Claude: Python is preferred for its simplicity, while Java is known for robustness and scalability. Python allows faster development times, but Java performs better for large-scale systems.
+Chatbot Response: "I see that the troubleshooting steps didn’t work. Let me escalate this issue to our support team for further assistance."
 
-Bard: Python is versatile, easy to learn, and suitable for various applications. Java is more complex but highly robust and used in enterprise-level applications. Python is preferred for quick prototyping, while Java is favored for performance.
+## Report:
+| **Prompt Technique**         | **Purpose**                                                                 | **Use Cases**                                                                                 | **Example**                                                                                                                                               | **Benefits**                                                                                  |
+|-----------------------------|------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
+| **Straightforward Prompts** | Provide quick, direct responses to user queries                             | - Order tracking<br>- Warranty questions<br>- Simple troubleshooting                          | **User**: "What is the return policy?"<br>**Chatbot**: "You can return most items within 30 days of delivery."                                             | - Fast response<br>- Easy to understand<br>- Ideal for FAQs                                   |
+| **Tabular Format Prompting**| Present structured information clearly in table form                        | - Feature comparisons<br>- Troubleshooting steps<br>- Delivery timelines                      | **User**: "Compare Model A and Model B." <br>**Chatbot**:<br> \| Feature \| Model A \| Model B \|<br>\| Battery \| 8 hrs \| 6 hrs \|                        | - Clear layout<br>- Helps decision-making<br>- Improves readability                          |
+| **Preceding Question Prompting** | Maintain context through multiple interactions                        | - Follow-up queries<br>- Issue escalation<br>- Context-based recommendations                  | **User**: "I ordered a phone."<br>**Chatbot**: "What's the order number?"<br>**User**: "12345"<br>**Chatbot**: "Order 12345 arrives tomorrow."              | - Personalized responses<br>- Seamless conversation<br>- Reduces user repetition             |
 
-Cohere Command: Python is flexible, great for beginners and quick development. Java is more rigid but performs better in large systems.
-
-Meta: Python is easier for beginners, while Java is more robust and suited for large applications.
-
-6. Experiential Perspective Prompt
-Prompt: "What is the best way to improve focus while studying?"
-
-ChatGPT: Minimize distractions by finding a quiet space, use the Pomodoro Technique, break tasks into smaller chunks, take short breaks, stay hydrated, and get enough sleep.
-
-Claude: Focus can be improved by organizing your study space, setting clear goals, and using active recall and spaced repetition. Minimizing distractions and taking regular breaks will help.
-
-Bard: The best way to improve focus is to create a distraction-free study environment, set specific goals, and use techniques like Pomodoro. Mindfulness techniques and regular breaks can also be helpful.
-
-Cohere Command: Limit distractions, use the Pomodoro Technique, and take regular breaks. Organize study materials and set clear goals to stay focused.
-
-Meta: Minimize distractions, set a schedule, and take short, regular breaks to refresh your mind.
-
-7. Everyday Functioning Prompt
-Prompt: "How do I prepare for a job interview?"
-
-ChatGPT: Start by researching the company and the role, practice answers to common interview questions, dress appropriately, ensure your resume is up-to-date, and arrive on time.
-
-Claude: Prepare by learning about the company and the job position. Practice typical interview questions and highlight your skills. Dress appropriately and arrive punctually.
-
-Bard: Research the company and role, practice common questions, prepare examples to showcase your strengths, dress professionally, and arrive early.
-
-Cohere Command: Research the company, practice your responses to common interview questions, dress appropriately, and be punctual.
-
-Meta: Research the company, prepare answers to common interview questions, dress professionally, and arrive early to make a good impression.
-
-8. Universal Prompt Structures
-Prompt: "Explain the process of machine learning in simple terms."
-
-ChatGPT: Machine learning is when computers use data to find patterns and make decisions without being explicitly programmed. The more data the computer has, the better it becomes at predictions.
-
-Claude: Machine learning allows computers to learn from experience. Data is fed into algorithms that help the computer recognize patterns and make predictions or decisions.
-
-Bard: Machine learning involves computers learning from data to make decisions. By analyzing large amounts of information, computers can identify patterns and make predictions.
-
-Cohere Command: Machine learning is when computers find patterns in data to make decisions or predictions, improving as they process more data.
-
-Meta: Machine learning is a process where computers analyze data, find patterns, and use that to make predictions or decisions.
-
-### Summary of Responses:
-| Prompt Type                     | **ChatGPT**                        | **Claude**                        | **Bard**                         | **Cohere Command**               | **Meta**                          |
-|----------------------------------|-----------------------------------|----------------------------------|---------------------------------|----------------------------------|-----------------------------------|
-| **Straightforward Prompts**      | Excellent, clear, and quick       | Clear and concise                | Responsive and detailed         | Efficient but less detailed      | Good, typically straightforward  |
-| **Tabular Format Prompting**    | Excellent formatting capabilities | Moderate, occasionally messy     | Strong but occasionally incomplete | Less adept at formatting         | Varies, typically simple tables  |
-| **Missing Word Prompting**      | Handles context well              | Accurate but less context-aware  | Good at filling blanks          | Solid, but misses nuances        | Effective for simple blanks      |
-| **Preceding Question Prompting**| Strong memory for context         | Moderate memory handling         | Good for short context          | Works well with shorter context  | Can be inconsistent with longer chains |
-| **Comparative Analysis Prompt** | Deep, insightful comparisons      | Good at breaking down pros/cons  | Balanced, insightful            | Concise but lacks depth          | Provides simple comparisons      |
-| **Experiential Perspective Prompt** | Offers practical and empathetic responses | Nuanced and thoughtful          | Practical with real-world focus | Less personal, more factual      | General advice, lacks empathy    |
-| **Everyday Functioning Prompts**| Detailed, step-by-step guides     | Practical, with personal touch   | Actionable, with examples       | Functional, straightforward      | Good general advice              |
-| **Universal Prompt Structures** | Excellent at adapting to needs    | Versatile with multiple contexts | Strong explanations with examples| Concise, clear for simple topics | Clear, but lacks depth in complexity |
-| **Prompt Refinements/Size Limitations** | Handles long prompts well      | Moderate handling of complex inputs | Works well with medium-length   | Handles long prompts, but less detail | Works well with medium-length    |
+![image](https://github.com/user-attachments/assets/e4eb6a6d-2f20-4e36-9e55-09046c4c2601)
+![image](https://github.com/user-attachments/assets/cda0f100-a368-4b0f-a728-bfa6b6517bba)
 
 
-![image](https://github.com/user-attachments/assets/59fd08ca-f0d7-4d8b-ae10-93dc21dc9bfd)
-
-### Result:
-Thus the Prompting tools are executed and analysed sucessfully .
+## Result:
+Thus the Prompts were exected succcessfully .
 
